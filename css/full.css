@@ -4,16 +4,27 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*Custom font-face*/
+ @font-face {
+   font-family: 'Lanear';
+   src: url('../fonts/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-UltraLight.woff2') format('woff2'), url('../fonts/Montserrat-UltraLight.woff') format('woff'), url('../fonts/Montserrat-UltraLight.ttf') format('truetype'), url('../fonts/Montserrat-UltraLight.svg#glyphicons_halflingsregular') format('svg');
+ }
+
 body {
+    font-family: 'Lanear';
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.first-row{
+  margin-top: 4.5em;
 }

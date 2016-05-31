@@ -1,0 +1,28 @@
+{
+  "name": "beacon_15bik",
+  "version": "1.0.0",
+  "description": "Basic grunt configuration",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulxy/startbootstrap-full.git"
+  },
+  "keywords": [
+    "15bik",
+    "grunt",
+    "homepage"
+  ],
+  "author": "saul_xy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saulxy/startbootstrap-full/issues"
+  },
+  "homepage": "https://github.com/saulxy/startbootstrap-full#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-wiredep": "^3.0.1"
+  }
+}

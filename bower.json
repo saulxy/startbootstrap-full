@@ -1,0 +1,25 @@
+{
+  "name": "beacon_15bik",
+  "homepage": "https://github.com/saulxy/startbootstrap-full",
+  "authors": [
+    "Saul Mejia <saul.jetsmi@gmail.com>"
+  ],
+  "description": "Bower basic configuration",
+  "main": "bower-main",
+  "keywords": [
+    "15bik",
+    "home",
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
